@@ -1,6 +1,35 @@
 {
     "name": "pixney/three_columns_block-extension",
     "type": "streams-addon",
+    "description": "Three columns bootstrap 4 layout",
+    "homepage": "https://pixney.com/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pixney AB",
+            "email": "hello@pixney.com",
+            "homepage": "https://pixney.com/",
+            "role": "Owner"
+        },
+        {
+            "name": "William Åström",
+            "email": "william@pixney.com",
+            "homepage": "https://williamastrom.se/",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "hello@pixney.com"
+    },
+    "require": {
+        "anomaly/blocks-module": "^1.0"
+    },
+    "keywords": [
+        "streams module",
+        "block type",
+        "blocks",
+        "bootstrap 4"
+    ],
     "autoload": {
         "psr-4": {
             "Pixney\\ThreeColumnsBlockExtension\\": "src/"

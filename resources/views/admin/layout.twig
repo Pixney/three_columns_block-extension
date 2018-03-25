@@ -1,22 +1,18 @@
 {{ asset_add('styles.css', 'pixney.extension.three_columns_block::sass/pixney.scss') }}
 {#{ asset_add('scripts.js', 'anomaly.module.files::js/dropzone.min.js') }#}
 
-<div class="card">
+<div class="card" id="three_columns_block-extension">
     <div class="card-block">
-
         <div class="row">
             <div class="col-sm-24">
                 <div class="row">
                     <div class="col-sm-6">
-                   
                         {{ form.fields.headline.label|raw }}
                         {{ form.fields.headline.input|raw }}
-                    
                     </div>
                 </div>
             </div>
         </div>
-
         <!-- Nav tabs -->
         <ul class="nav nav-tabs" id="myTab" role="tablist" style="margin:20px 0 0;">
             <li class="nav-item active">
@@ -28,9 +24,7 @@
             <li class="nav-item">
                 <a class="nav-link" id="{{form.options.block_instance}}_col-3-tab" data-toggle="tab" href="#{{form.options.block_instance}}_col-3" role="tab" aria-controls="{{form.options.block_instance}}_col-3" aria-selected="false">Right Column</a>
             </li>
-
         </ul>
-
         <!-- Tab panes -->
         <div class="tab-content" style="background:#ececec;padding:10px;">
             <div class="tab-pane active" id="{{form.options.block_instance}}_col-1" role="tabpanel" aria-labelledby="{{form.options.block_instance}}_col-1-tab">
@@ -79,7 +73,6 @@
                                 {{ form.fields.column_2_image.input|raw }}
                             </div>
                         </div>
-                        
                     </div>
                 </div>
             </div>

@@ -1,12 +1,15 @@
-.nav-item a.nav-link.active 
+#two_columns_block-extension
 {
-    background:transparent;
-}
-.nav-tabs .nav-item.active a 
-{
-    background:#ececec;
-}
-.space-top 
-{
-    margin-top:25px;
+    .nav-item a.nav-link.active
+    {
+        background: transparent;
+    }
+    .nav-tabs .nav-item.active a
+    {
+        background: #ececec;
+    }
+    .space-top
+    {
+        margin-top: 25px;
+    }
 }
